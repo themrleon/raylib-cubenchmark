@@ -29,3 +29,5 @@ Intel HD 4000 (Raylib 5.5 / OpenGL 4.2):
 Raspberry Pi 1 Model B (Raylib 4.5 / OpenGL ES 2.0):  
 <img width="652" height="428" alt="image" src="https://github.com/user-attachments/assets/34ee0eca-de7d-4fdf-9e5f-34037cb69b60" />  
 <img width="662" height="676" alt="image" src="https://github.com/user-attachments/assets/84b4f807-3272-4c46-9d6e-3331019a63c3" />
+> [!WARNING]
+> Raspberry pi is locked to 60 FPS, to unlock edit `/boot/config.txt` to `hdmi_cvt=320 240 <max FPS> 1 0 0 0`
