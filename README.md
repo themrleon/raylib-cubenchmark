@@ -1,5 +1,5 @@
 # What is this ?
-A simple Raylib graphics FPS benchmark tool, meant to quickly test performance on any platform.
+A simple OpenGL FPS benchmark tool, meant to quickly test performance on any platform, developed with Raylib in C. It can also run on any browser so you can test devices that you may only have browser access like a TV.
 
 # Compilling
 1. Get Raylib's assets for your architecture [here](https://github.com/raysan5/raylib/releases)
@@ -16,6 +16,9 @@ gcc -o cubenchmark cubenchmark.c -lraylib -I/home/user/raylib-5.5_linux_amd64/in
 ```bash
 gcc -o cubenchmark cubenchmark.c -lraylib -latomic -lbrcmGLESv2 -lbrcmEGL -L/opt/vc/lib
 ```
+
+# Web version
+For that use `emscripten`: https://github.com/emscripten-core/emsdk
 
 # Examples
 All using same 320x240 resolution:  
